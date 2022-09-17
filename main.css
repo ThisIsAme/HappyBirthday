@@ -7,14 +7,15 @@ body {
 p {
                 font-size : 8px;
                 line-height : 8px;
-                text-allign : justify;
+                text-align : justify;
                 -webkit-background-size : cover;
-                background-size : cover;
+                background-size: contain;
                 background-repeat : no-repeat;
-                background-position : center;
+                background-position: bottom 100px;
                 background : url(bg.jpg) no-repeat center/cover;
                 background-attachment : fixed;
-                -webkit-background-clip : text;
+                background-clip: unset;
+                -webkit-background-clip: text;
                 -webkit-text-fill-color : rgb(255,255,255,0);
                 
 }
